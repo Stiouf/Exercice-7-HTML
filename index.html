@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title></title>
+  </head>
+  <body>
+    <fieldset class="box1"> <legend class="box1">Votre identité</legend>
+      <ol>
+        <li>Nom : <input type="text" name="Nom" placeholder="Nom"></li>
+        <li>Prénom : <input type="text" name="Prenom" placeholder="Prénom"></li>
+        <li>Adresse mail: <input type="text" name="mail" placeholder="Adresse mail"></li>
+      </ol>
+    </fieldset>
+    <fieldset class="box2"> <legend class="box2">Adresse de livraison</legend>
+      <ol>
+        <li>Adresse : <textarea  rows="4" placeholder="textarea"></textarea></li>
+        <li>Code postal : <input type="text" name="Codepostal" placeholder="Code postal"></li>
+        <li>Ville : <input type="text" name="Ville" placeholder="Ville"></li>
+      </ol>
+    </fieldset>
+    <fieldset class="box3"> <legend class="box3">Informations de règlement</legend>
+      <ol>
+        <li>Type de carte bancaire :<br>
+            <input type="radio" name="radio1" value="radio1">Visa <br>
+            <input type="radio" name="radio1" value="radio2">Mastercard
+        </li>
+        <li>Numéro de carte : <input type="text" name="Numéro de carte" placeholder="Numéro de carte"></li>
+        <li>Code de sécurité : <input type="text" name="Code de sécurité" placeholder="Code de sécurité"></li>
+        <li>Nom du titulaire : <input type="text" name="Nom du titulaire" placeholder="Nom du titulaire"></li>
+      </ol>
+    </fieldset>
+    </div>
+    <input type="submit" name="envoi" value="J'achète !">
+  </body>
+</html>
