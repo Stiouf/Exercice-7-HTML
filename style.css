@@ -1,12 +1,20 @@
-.box1
-{
+.box1{
   background-color: blue;
 }
-.box2
-{
+.box2{
   background-color: purple;
 }
-.box3
-{
+.box3{
   background-color: pink;
+}
+.box1 label,.box2 label{
+  display: inline-block;
+  width: 120px;
+}
+.box3 label{
+  display: inline-block;
+  width: 150px;
+}
+.marge{
+  margin-left: 30px;
 }

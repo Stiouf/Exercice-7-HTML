@@ -2,28 +2,30 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" type="text/css" href="style.css" />
   <title>Exercice 7</title>
 </head>
 <body>
-  <form class="" action="index.html" method="post">
-    <fieldset class="box1"> <legend class="box1">Votre identité</legend>
+  <form action="index.html" method="post">
+    <fieldset class="box1">
+      <legend class="box1">Votre identité</legend>
       <ol>
         <li>
           <label for="nom">Nom :</label>
-          <input type="text" name="nom" id="nom" placeholder="Nom">
+          <input type="text" name="nom" id="nom" placeholder="Nom" />
         </li>
         <li>
           <label for="prenom">Prénom :</label>
-          <input type="text" name="prenom" id="prenom" placeholder="Prénom">
+          <input type="text" name="prenom" id="prenom" placeholder="Prénom" />
         </li>
         <li>
           <label for="mail">Adresse mail:</label>
-          <input type="email" name="mail" id="mail" placeholder="Adresse mail">
+          <input type="email" name="mail" id="mail" placeholder="Adresse mail" />
         </li>
       </ol>
     </fieldset>
-    <fieldset class="box2"> <legend class="box2">Adresse de livraison</legend>
+    <fieldset class="box2">
+      <legend class="box2">Adresse de livraison</legend>
       <ol>
         <li>
           <label for="adresse">Adresse :</label>
@@ -31,38 +33,38 @@
         </li>
         <li>
           <label for="codepostal">Code postal :</label>
-          <input type="text" name="codepostal" id="codepostal" placeholder="Code postal">
+          <input type="text" name="codepostal" id="codepostal" placeholder="Code postal" />
         </li>
         <li>
           <label for="ville">Ville :</label>
-          <input type="text" name="ville" id="ville" placeholder="Ville">
+          <input type="text" name="ville" id="ville" placeholder="Ville" />
         </li>
       </ol>
     </fieldset>
-    <fieldset class="box3"> <legend class="box3">Informations de règlement</legend>
+    <fieldset class="box3">
+      <legend class="box3">Informations de règlement</legend>
       <ol>
         <li>Type de carte bancaire :<br>
-          <input type="radio" name="typecarte" value="visa" id="visa">
+          <input class="marge" type="radio" name="typecarte" value="visa" id="visa" />
           <label for"visa">Visa</label><br>
-          <input type="radio" name="typecarte" value="mastercard" id="mastercard">
+          <input class="marge" type="radio" name="typecarte" value="mastercard" id="mastercard" />
           <label for"mastercard">Mastercard</label>
         </li>
         <li>
-          <label for="numerocarte">Numéro de carte : </label>
-          <input type="text" name="numerocarte" id="numerocarte" placeholder="Numéro de carte">
+          <label for="numerocarte">Numéro de carte :</label>
+          <input type="text" name="numerocarte" id="numerocarte" placeholder="Numéro de carte" />
         </li>
         <li>
           <label for="codesecurite">Code de sécurité :</label>
-          <input type="text" name="codesecurite" id="codesecurite" placeholder="Code de sécurité">
+          <input type="text" name="codesecurite" id="codesecurite" placeholder="Code de sécurité" />
         </li>
         <li>
           <label for="nomtitulairecarte">Nom du titulaire :</label>
-          <input type="text" name="nomtitulairecarte" id="nomtitulairecarte" placeholder="Nom du titulaire">
+          <input type="text" name="nomtitulairecarte" id="nomtitulairecarte" placeholder="Nom du titulaire" />
         </li>
       </ol>
     </fieldset>
-  </div>
-  <input type="submit" name="envoi" value="J'achète !">
-</form>
+    <input type="submit" name="envoi" value="J'achète !">
+  </form>
 </body>
 </html>
